@@ -135,7 +135,7 @@ const Footer = (props: Props) => {
                 <div class="d-flex flex-column text-start">
                   <ExternalLink
                     class="link mb-1 opacity-75 text-white disabled text-decoration-none"
-                    href="https://github.com/cncf/landscape2"
+                    href="https://github.com/tensorchord/ai-infra-landscape"
                   >
                     <div class="d-flex align-items-center">
                       <SVGIcon kind={SVGIconKind.Documentation} class="me-2" />
@@ -149,7 +149,7 @@ const Footer = (props: Props) => {
                 <div class="d-flex flex-column text-start">
                   <ExternalLink
                     class="link mb-1 opacity-75 text-white disabled text-decoration-none"
-                    href="https://github.com/cncf/landscape2"
+                    href="https://github.com/tensorchord/ai-infra-landscape"
                   >
                     <div class="d-flex align-items-center">
                       <SVGIcon kind={SVGIconKind.GitHub} class="me-2" />
@@ -179,26 +179,11 @@ const Footer = (props: Props) => {
 
             <div>
               <div class={`pt-2 ${styles.copyright}`}>
-                Copyright © {moment().format('YYYY')} The Linux Foundation®. All rights reserved. The Linux Foundation
-                has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please
-                see our{' '}
-                <ExternalLink class="p-0 fw-semibold text-white" href="https://www.linuxfoundation.org/trademark-usage">
-                  Trademark Usage
-                </ExternalLink>{' '}
-                page. Linux is a registered trademark of Linus Torvalds.{' '}
-                <ExternalLink class="p-0 fw-semibold text-white" href="https://www.linuxfoundation.org/privacy">
-                  Privacy Policy
-                </ExternalLink>{' '}
-                and{' '}
-                <ExternalLink class="p-0 fw-semibold text-white" href="https://www.linuxfoundation.org/terms">
-                  Terms of Use
-                </ExternalLink>
-                . This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache
+                This website contains data received from Crunchbase. This data is not licensed pursuant to the Apache
                 License. It is subject to Crunchbase's Data Access Terms, available at{' '}
                 <ExternalLink class="p-0 fw-semibold text-white" href="https://data.crunchbase.com/docs/terms">
                   https://data.crunchbase.com/docs/terms
-                </ExternalLink>
-                , and is only permitted to be used with Linux Foundation landscape projects.
+                </ExternalLink>.
               </div>
             </div>
           </div>

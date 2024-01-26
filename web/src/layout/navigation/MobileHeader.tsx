@@ -105,7 +105,7 @@ const MobileHeader = () => {
               </div>
               <div class="d-none d-lg-flex align-items-center">
                 <DownloadDropdown />
-                <ExternalLink class="btn btn-md text-dark fs-5 ms-2 px-0" href="https://github.com/cncf/landscape2">
+                <ExternalLink class="btn btn-md text-dark fs-5 ms-2 px-0" href="https://github.com/tensorchord/ai-infra-landscape">
                   <SVGIcon kind={SVGIconKind.GitHub} class={`position-relative ${styles.githubIcon}`} />
                 </ExternalLink>
               </div>

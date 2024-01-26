@@ -78,7 +78,7 @@ const MobileDropdown = (props: Props) => {
           <ExternalLink
             class="text-decoration-none fw-semibold d-inline-block w-100"
             label="Open documentation"
-            href="https://github.com/cncf/landscape2"
+            href="https://github.com/tensorchord/ai-infra-landscape"
           >
             <div class="d-flex align-items-center">
               <SVGIcon kind={SVGIconKind.Documentation} class="me-2" />
@@ -90,7 +90,7 @@ const MobileDropdown = (props: Props) => {
           <ExternalLink
             class="text-decoration-none fw-semibold d-inline-block w-100"
             label="Open documentation"
-            href="https://github.com/cncf/landscape2"
+            href="https://github.com/tensorchord/ai-infra-landscape"
           >
             <div class="d-flex align-items-center">
               <SVGIcon kind={SVGIconKind.GitHub} class="me-2" />

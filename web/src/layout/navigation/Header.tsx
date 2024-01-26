@@ -130,7 +130,7 @@ const Header = () => {
               <DownloadDropdown />
               <ExternalLink
                 class={`btn btn-md text-dark ms-3 px-0 ${styles.btnLink}`}
-                href="https://github.com/cncf/landscape2"
+                href="https://github.com/tensorchord/ai-infra-landscape"
               >
                 <SVGIcon kind={SVGIconKind.GitHub} class={`position-relative ${styles.githubIcon}`} />
               </ExternalLink>
